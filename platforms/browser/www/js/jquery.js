@@ -47,8 +47,7 @@ $(document).on("click touch", ".page_button", function () {
 				 $("#page_1").load(encodeURI(url), function() {
 				    cordova.plugins.barcodeScanner.scan(
             function (result) {
-                //alert("We got a barcode\n" + "Result: " + result.text + "\n" + "Format: " + result.format + "\n" + "Cancelled: " + result.cancelled);
-								$("#main_menu").css("display","none"); 
+               $("#main_menu").css("display","none"); 
 								$("#page_1").css("display", "block"); 
 								url = "http://www.weprintbarcodes.com/SIS/input_status.php?dmax_scan=" + result.text; 
 								$("#page_1").load(url); 
