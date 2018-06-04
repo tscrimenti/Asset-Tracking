@@ -8,10 +8,10 @@
     </feature>
     <name>Asset Tracking</name>
     <description>
-        Hello World sample application that responds to the deviceready event.
+        Asset Tracking.
     </description>
-    <author email="support@phonegap.com" href="http://phonegap.com">
-        PhoneGap Team
+    <author email="tony@bcuinc.com" href="http://www.bcuinc.com">
+        Bar Codes Unlimited
     </author>
     <content src="index.html" />
     <access origin="*" />

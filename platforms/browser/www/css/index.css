@@ -81,7 +81,7 @@ margin:0px;
 heading:0px;
 }
 
-a.button  {
+/*a.button  {
 width:100%; 
 background:#990000;
 color:white;
@@ -94,9 +94,9 @@ font-size:18px;
 padding-top:10px;
 padding-bottom:10px;
 margin-top:3px;
-}
+}*/
 
-a.page_button, a.save_and_scan_again  {
+a.page_button, a.save_and_scan_again, a.save_and_done, a.button  {
 width:100%; 
 background:#990000;
 color:white;
@@ -106,9 +106,9 @@ text-decoration:none;
 border-top:3px solid black;
 border-bottom:3px solid black;
 font-size:18px;
-padding-top:10px;
-padding-bottom:10px;
-margin-top:3px;
+padding-top:15px;
+padding-bottom:15px;
+margin-top:20px;
 }
 
 div.page {
@@ -118,3 +118,8 @@ min-height:500px;
 padding:0px;
 margin:0px;
 }
+
+#scratch_space {
+display:none;
+}
+

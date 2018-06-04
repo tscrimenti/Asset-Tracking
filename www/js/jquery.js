@@ -62,4 +62,21 @@ $(document).on("click touch", ".page_button", function () {
 
 }); 
 
+//******************************************************************************
+//                   SAVE AND DONE 
+//******************************************************************************
+
+$(document).on("click touch","#save_and_done", function () {
+
+       url = "http://www.weprintbarcodes.com/SIS/save_data.php?dmax_scan=" + $("#dmax_scan").val() + "&dmax_status=" + $('input[name=dmax_status]:checked').val() ;
+			// alert(url);
+			 
+			 $("#scratch_space").load(encodeURI(url), function() {
+			       	  $(".page").css("display", "none"); 
+		           $("#main_menu").css("display", "block"); 
+			     }); 
+
+}); 
+
+
 }); 
