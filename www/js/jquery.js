@@ -78,7 +78,7 @@ $(document).on("click touch","#save_and_done", function () {
 			 
 			 $("#scratch_space").load(encodeURI(url), function() {
 			       	  $(".page").css("display", "none"); 
-		           $("#main_menu").css("display", "block"); 
+		           $("#page_3").css("display", "block"); 
 			     }); 
 
 }); 
@@ -134,7 +134,9 @@ function openCamera(selection) {
 $(document).on("click touch", "#show_data", function () {
 
 											alert("Make div vissible - and load with ajax"); 
-										
+										     $(".page").css("display", "none"); 
+		                $("#main_menu").css("display", "block"); 
+							 
 
 }); 
 
