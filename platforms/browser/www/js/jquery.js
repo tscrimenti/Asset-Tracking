@@ -127,6 +127,18 @@ function openCamera(selection) {
 
 }); 
 
+//******************************************************************************
+//.                    SHOW DATA 
+//******************************************************************************
+
+$(document).on("click touch", "#show_data", function () {
+
+											alert("Make div vissible - and load with ajax"); 
+										
+
+}); 
+
+
 
 
 }); 
