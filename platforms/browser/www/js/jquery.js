@@ -135,8 +135,10 @@ $(document).on("click touch", "#show_data", function () {
 
 											alert("Make div vissible - and load with ajax"); 
 										     $(".page").css("display", "none"); 
-		                $("#main_menu").css("display", "block"); 
-							 
+		                     $("#page_3").css("display", "block"); 
+							 					url = "http://www.weprintbarcodes.com/SIS/show_data.php"; 
+												$("#page_3").load(url); 
+												
 
 }); 
 
